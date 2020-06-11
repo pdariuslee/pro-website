@@ -1,0 +1,121 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+
+    margin: 50px auto 0px auto;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+
+h3 {
+
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    border: 0px;
+    border-top: 10px dotted gray;
+    width: 7%;
+    margin: 125px auto 100px auto;
+    
+}
+
+/* ************class selector************ */
+
+.top-container {
+
+    background-color: #EAF6F6;
+    text-align: center;
+    position: relative;
+    padding-top: 7%;
+
+}
+
+.middle-container {
+
+    padding: 100px 100px;
+   
+    
+}
+
+.bottom-container {
+    background-color: #EAF6F6;
+    padding: 100px 0px;
+}
+
+.skills-picture1 {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.skills-picture2 {
+    background-image: white;
+    width: 25%;
+    float: right;
+    padding-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 200px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.btn {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-color: #66bfbf;
+    border: none;
+    border-radius: 15px;
+    color: #eaf6f6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* *************** ID SELECTOR *************** */
+
+/* #mountain{
+
+} */
+
+#cloud-top {
+
+    position: absolute;
+    right: 20%;
+    top: 5%;
+
+}
+
+#cloud-bottom {
+    top: 55%;
+    left: 25%;
+    position: absolute;
+
+}
+
